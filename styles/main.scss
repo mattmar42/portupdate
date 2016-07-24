@@ -10,6 +10,10 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 26px;
 
+  nav {
+    display: none;
+  }
+
   a {
     margin-left: 40px;
     margin-right: 40px;
@@ -24,8 +28,24 @@ body {
   }
 }
 
-  h1, h2 {
+  h1, h2{
     font-family: 'Abel', sans-serif;
+    h2 {
+      font-weight: 400;
+    }
+  }
+
+  #about {
+
+    h1, h2 {
+      display: none;
+    }
+
+  }
+
+  .underline {
+    border-bottom: 1px solid $ebon;
+    padding-bottom: 5px;
   }
 
 }
