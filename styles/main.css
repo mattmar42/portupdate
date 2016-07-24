@@ -1,16 +1,19 @@
 /* Variables */
 /* Animations */
 body header {
-  font-family: 'Cabin', sans-serif;
-  font-size: 18px; }
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px; }
   body header a {
-    margin: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
     color: #424141;
     border-bottom: 1px solid #424141;
     padding-bottom: 5px; }
     body header a:hover {
-      color: #5c5a5a;
-      border-bottom: 1px solid #5c5a5a;
+      color: #757474;
+      border-bottom: 1px solid #757474;
       text-decoration: none; }
+body h1, body h2 {
+  font-family: 'Abel', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
