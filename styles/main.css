@@ -1,3 +1,19 @@
-
+/* Variables */
+/* Animations */
+body header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px; }
+  body header a {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #424141;
+    border-bottom: 1px solid #424141;
+    padding-bottom: 5px; }
+    body header a:hover {
+      color: #757474;
+      border-bottom: 1px solid #757474;
+      text-decoration: none; }
+body h1, body h2 {
+  font-family: 'Abel', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
