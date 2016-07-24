@@ -1,0 +1,31 @@
+/* Variables */
+$ebon: #424141;
+
+/* Animations */
+
+body {
+
+  header {
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px;
+
+  a {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: $ebon;
+    border-bottom: 1px solid $ebon;
+    padding-bottom: 5px;
+    &:hover {
+      color: lighten($ebon, 20%);
+      border-bottom: 1px solid lighten($ebon, 20%);
+      text-decoration: none;
+    }
+  }
+}
+
+  h1, h2 {
+    font-family: 'Abel', sans-serif;
+  }
+
+}
