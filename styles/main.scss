@@ -10,6 +10,25 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 26px;
 
+  nav {
+    display: none;
+
+    @media (max-width: 540px) {
+
+      a {
+        margin-left: 0px;
+        margin-top: 2px;
+        display: list-item;
+        font-size: 20px;
+        border: 0px;
+        text-decoration: none;
+        list-style-type: none;
+      }
+
+    }
+
+  }
+
   a {
     margin-left: 40px;
     margin-right: 40px;
@@ -24,8 +43,38 @@ body {
   }
 }
 
-  h1, h2 {
+  h1, h2, h3{
     font-family: 'Abel', sans-serif;
+    h2 {
+      font-weight: 400;
+    }
+  }
+
+  p {
+    font-family: 'Abel', sans-serif;
+  }
+
+  #about {
+
+    h1, h2, h3 {
+      display: none;
+    }
+
+    p {
+      display: none;
+      font-size: 17px;
+    }
+
+    #down-arrow {
+      width: 50px;
+      display: none;
+    }
+
+  }
+
+  .underline {
+    border-bottom: 1px solid $ebon;
+    padding-bottom: 5px;
   }
 
 }

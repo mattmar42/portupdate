@@ -3,6 +3,17 @@
 body header {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 26px; }
+  body header nav {
+    display: none; }
+    @media (max-width: 540px) {
+      body header nav a {
+        margin-left: 0px;
+        margin-top: 2px;
+        display: list-item;
+        font-size: 20px;
+        border: 0px;
+        text-decoration: none;
+        list-style-type: none; } }
   body header a {
     margin-left: 40px;
     margin-right: 40px;
@@ -13,7 +24,22 @@ body header {
       color: #757474;
       border-bottom: 1px solid #757474;
       text-decoration: none; }
-body h1, body h2 {
+body h1, body h2, body h3 {
   font-family: 'Abel', sans-serif; }
+  body h1 h2, body h2 h2, body h3 h2 {
+    font-weight: 400; }
+body p {
+  font-family: 'Abel', sans-serif; }
+body #about h1, body #about h2, body #about h3 {
+  display: none; }
+body #about p {
+  display: none;
+  font-size: 17px; }
+body #about #down-arrow {
+  width: 50px;
+  display: none; }
+body .underline {
+  border-bottom: 1px solid #424141;
+  padding-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */
