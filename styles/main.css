@@ -5,6 +5,15 @@ body header {
   font-size: 26px; }
   body header nav {
     display: none; }
+    @media (max-width: 540px) {
+      body header nav a {
+        margin-left: 0px;
+        margin-top: 2px;
+        display: list-item;
+        font-size: 20px;
+        border: 0px;
+        text-decoration: none;
+        list-style-type: none; } }
   body header a {
     margin-left: 40px;
     margin-right: 40px;
@@ -19,8 +28,13 @@ body h1, body h2 {
   font-family: 'Abel', sans-serif; }
   body h1 h2, body h2 h2 {
     font-weight: 400; }
+body p {
+  font-family: 'Abel', sans-serif; }
 body #about h1, body #about h2 {
   display: none; }
+body #about p {
+  display: none;
+  font-size: 18px; }
 body .underline {
   border-bottom: 1px solid #424141;
   padding-bottom: 5px; }
