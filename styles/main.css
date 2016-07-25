@@ -1,5 +1,12 @@
 /* Variables */
 /* Animations */
+@keyframes bounce-down {
+  0% {
+    transform: translateY(-10px); }
+  50% {
+    transform: translateY(-3px); }
+  100% {
+    transform: translateY(-10px); } }
 body header {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 26px; }
@@ -37,7 +44,8 @@ body #about p {
   font-size: 17px; }
 body #about #down-arrow {
   width: 50px;
-  display: none; }
+  display: none;
+  animation: bounce-down 2s infinite; }
 body .underline {
   border-bottom: 1px solid #424141;
   padding-bottom: 5px; }

@@ -3,6 +3,12 @@ $ebon: #424141;
 
 /* Animations */
 
+@keyframes bounce-down {
+    0% {transform: translateY(-10px); }
+    50% { transform: translateY(-3px); }
+    100% {transform: translateY(-10px); }
+} 
+
 body {
 
   header {
@@ -68,6 +74,7 @@ body {
     #down-arrow {
       width: 50px;
       display: none;
+      animation: bounce-down 2s infinite;
     }
 
   }
