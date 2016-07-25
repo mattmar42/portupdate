@@ -43,7 +43,7 @@ body {
   }
 }
 
-  h1, h2{
+  h1, h2, h3{
     font-family: 'Abel', sans-serif;
     h2 {
       font-weight: 400;
@@ -56,13 +56,18 @@ body {
 
   #about {
 
-    h1, h2 {
+    h1, h2, h3 {
       display: none;
     }
 
     p {
       display: none;
-      font-size: 18px;
+      font-size: 17px;
+    }
+
+    #down-arrow {
+      width: 50px;
+      display: none;
     }
 
   }
